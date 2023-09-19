@@ -5,9 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <title>Pengui Fashion</title>
+    <title>Penguin Fashion</title>
   </head>
   <body>
-    <div></div>
+    <header class="bg-[#eee]">
+      <div
+        class="md:flex xl:flex justify-between items-center px-5 space-y-3 md:space-y-0 xl:space-y-0"
+      >
+        <div class="space-y-6">
+          <h1 class="text-7xl uppercase font-extrabold">
+            <span class="text-[#FABA4C]"
+              >Be the Diamond
+              <br />
+            </span>
+            of this world
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
+            aperiam!
+          </p>
+          <button
+            class="px-5 py-3 bg-slate-500 text-xl rounded-lg text-white font-black"
+          >
+            Buy Now
+          </button>
+        </div>
+
+        <div>
+          <img src="./images/borka-1.jpg" alt="" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <h3 class="text-3xl ps-5 pt-10 font-semibold uppercase">
+        <span class="text-[#FABA4C]">women</span> clothing
+      </h3>
+      <!-- cloth cards  -->
+      <section class="grid sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-2 mx-5">
+        <!-- card 1 -->
+        <div class="bg-red-300 p-3 space-y-3">
+          <img src="./images/borka-2.jpg" alt="" class="w-full" />
+          <h1 class="text-2xl font-semibold text-white">Black Special</h1>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+          <button
+            class="px-5 py-3 bg-slate-500 rounded-lg text-white hover:bg-slate-400"
+          >
+            Buy Now
+          </button>
+        </div>
+        <!-- card 2 -->
+        <div class="bg-red-300 p-3 space-y-3">
+          <img src="./images/borka-3.jpg" alt="" class="w-full" />
+          <h1 class="text-2xl font-semibold text-white">Black Special</h1>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+          <button
+            class="px-5 py-3 bg-slate-500 rounded-lg text-white hover:bg-slate-400"
+          >
+            Buy Now
+          </button>
+        </div>
+        <!-- card 3 -->
+        <div class="bg-red-300 p-3 md:col-span-2 xl:col-span-1 space-y-3">
+          <img src="./images/borka-5.jpg" alt="" class="w-full" />
+          <h1 class="text-2xl text-white font-semibold">Black Special</h1>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+          <button
+            class="px-5 py-3 bg-slate-500 rounded-lg text-white hover:bg-slate-400"
+          >
+            Buy Now
+          </button>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
